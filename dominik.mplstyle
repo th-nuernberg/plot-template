@@ -1,0 +1,57 @@
+### Color and Font
+xtick.color: 323034
+ytick.color: 323034
+text.color: 323034
+lines.markeredgecolor: black
+patch.facecolor: 118ab2
+patch.force_edgecolor: True
+patch.linewidth: 0.5
+scatter.edgecolors: black
+grid.color: b1afb5
+xtick.labelsize: 10
+ytick.labelsize: 10
+font.size: 10
+# Based on the tab20c palette
+axes.prop_cycle : (cycler('color', ['6baed6', 'fd8d3c', '74c476', '9e9ac8', '969696', '3182bd', 'e6550d', '31a354', '756bb1']))
+# axes.prop_cycle : (cycler('color', ['118ab2', 'ef476f' ,'ffd166', '06d6a0', '073b4c', 'f37736']))
+# In case we need more colors (e.g. for plots with many lines)
+# axes.prop_cycle : (cycler('color', ['f94144', 'f3722c', 'f8961e', 'f9844a', 'f9c74f', '90be6d', '43aa8b', '4d908e', '577590', '277da1']))
+mathtext.fontset: stix
+# mathtext.fontset: custom
+# mathtext.rm = 'Bitstream Vera Sans'
+# mathtext.it = 'Bitstream Vera Sans:italic'
+# mathtext.bf = 'Bitstream Vera Sans:bold'
+font.family: serif
+lines.linewidth: 2
+
+text.usetex: False  # use inline math for ticks
+pgf.rcfonts: False  # don't setup fonts from rc parameters 
+
+### Legend
+legend.frameon: False
+legend.framealpha: 0.8
+legend.fontsize: 10
+legend.edgecolor: 0.9
+legend.borderpad: 0.2
+legend.columnspacing: 1.5
+legend.labelspacing:  0.4
+legend.title_fontsize: 10
+
+### Axes
+axes.labelsize: 12
+axes.titlesize: 12
+axes.titlelocation: center
+axes.formatter.use_mathtext: True
+axes.autolimit_mode: round_numbers
+axes.labelpad: 3
+axes.formatter.limits: -4, 4
+axes.labelcolor: black
+axes.edgecolor: black
+axes.linewidth: 0.6
+axes.spines.right : False
+axes.spines.top : False
+axes.grid: False
+
+### Figure
+figure.titlesize: 12
+figure.dpi: 150
